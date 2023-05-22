@@ -1,16 +1,26 @@
 # Data Lovers - Breaking Bad
 
-  <p align="center">Clique aqui para acessar o projeto</p>
-  <p align="center">Status do projeto: em desenvolvimento</p>
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white//https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-[![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white//https://developer.mozilla.org/en-US/docs/Web/CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black//https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
-[![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white//https://git-scm.com/)](https://git-scm.com/)
-[![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white//https://github.com//)](https://github.com/)
-[![JEST](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white//https://jestjs.io/pt-BR/)](https://jestjs.io/pt-BR/)
-[![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white//https://figma.com/)](https://figma.com/)
-[![NODEJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white//https://nodejs.org/en)](https://nodejs.org/en)
+<div align="center">
+  
+  Acesse o projeto: [aqui](https://maahnbraz.github.io/SAP010-data-lovers/)  
+  <br>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
+  <img src="https://skillicons.dev/icons?i=html"/>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+  <img src="https://skillicons.dev/icons?i=css"/>
+  <a href="developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">
+  <img src="https://skillicons.dev/icons?i=js"/>
+  <a href="https://git-scm.com/">
+  <img src="https://skillicons.dev/icons?i=git"/>
+  <a href="https://github.com/">
+  <img src="https://skillicons.dev/icons?i=github"/>
+  <a href="https://jestjs.io/pt-BR/">
+  <img src="https://skillicons.dev/icons?i=jest"/>
+  <a href="https://figma.com/">
+  <img src="https://skillicons.dev/icons?i=figma"/>
+   <a href="https://nodejs.org/en">
+  <img src="https://skillicons.dev/icons?i=nodejs"/>
+  </div>
 
 ## Índice
 
