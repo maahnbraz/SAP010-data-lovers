@@ -27,6 +27,7 @@
    <a href="https://nodejs.org/en">
   <img src="https://skillicons.dev/icons?i=nodejs"/>
   </div>
+  
 
 ## Índice
 
@@ -44,12 +45,12 @@
 
 Desenvolvido no bootcamp da [Laboratória](https://www.laboratoria.la/br), o projeto Data Lovers teve como objetivo principal a construção de uma página web que permitisse ao usuário visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado, conforme a sua necessidade.
 
-O tema escolhido foi Breaking Bad, e o site é destinado aos fãs da série. Nele, os fãs podem fazer pesquisas sobre os seus principais personagens,
+O tema escolhido foi Breaking Bad, e o site é destinado aos fãs da série. Nele, os fãs podem fazer pesquisas sobre os seus principais personagens, utilizando os filtros existentes.
 
 ## 2. Histórias de usuário
 
 **História do usuário 1:**
-_"Sou um fã da série, e gostaria de saber que personagens aparecem nas duas séries (Breaking Bad e Better Call Saul), e quais só aparecem em uma delas."_
+_"Sou um fã da série, e gostaria de saber que personagens aparecem em Breaking Bad e quais aparecem em Better Call Saul."_
 
 A partir desta necessidade do usuário, foi criado o filtro por séries, no qual ele pode selecionar os personagens buscando pelas séries em que atuam.
 
@@ -80,28 +81,28 @@ Os filtros de "apelido", "ocupação" e "status" foram substituídos por "status
 
 Teste de Usabilidade
 
-O usuário realizou o Teste de interface e a Reavaliação do design do produto, identificou que a navegabilidade é de fácil entendimento, na primeira página, após ler a apresentação, entendeu que era para clicar na van, e por ela se tornar opaca deu maior destaque a função dela.
+O usuário que realizou o Teste de interface e a Reavaliação do design do produto, identificou que a navegabilidade é de fácil entendimento. Na primeira página, após ler a apresentação, entendeu que era para clicar na van, e por ela se tornar opaca deu maior destaque à função dela.
 
-Ao navegar na página de contém os cards identificou que a navegabilidade também era de fácil entendimento, gostou da posição do logo e estética dos cards, e pontuou possíveis melhorias:
+Ao navegar na página que contém os card, o usuário identificou que a navegabilidade também era de fácil entendimento, gostou da posição do logo e estética dos cards, e pontuou possíveis melhorias:
 
 ![Alt text](src/img/header%20e%20botoes.png)
 
 Problema 1:
-Como o botão “clear” poderia mudar de forma ou de lugar, pois está exatamente igual aos outros, o que pode causar confusão, e ele estando na mesma linha dos botões de filtro, pode parecer que seja só para limpar aquela linha, quando na verdade ele também limpa a pesquisa da busca por personagem.
+Segundo o usuário, o botão “clear” poderia mudar de forma ou de lugar, pois está exatamente igual aos outros, o que poderia causar confusão e fazer com que ele também parecesse um botão de filtro.
 Solução:
-Manteve o formato e ele desceu para a linha debaixo após todos os botões de filtro.
+Foi mantido o formato do botão e ele foi movido para a linha debaixo após todos os botões de filtro.
 
 Problema 2:
 Ainda nos botões, percebeu que o botão “back” poderia ter outro nome e ganhar uma marcação de seta.
 Solução: Foi colocado uma seta e alterado seu nome para “Previous”.
 
 Problema 3:
-No espaço de pesquisa por personagem, acrescentar o “...character name”, pois a busca é somente pelo nome do personagem, caso tente procurar por “nickname” não conseguirá.
+No espaço de pesquisa por personagem, acrescentar o “name”, pois a busca é somente pelo nome do personagem, caso tente procurar por “nickname” não conseguirá.
 Solução: Alterou o texto para “Search for name”
 
 Problema 4:
 Pontuou que o “corte” entre o header e os cards estava estranho, sugerindo que pudesse colocar outra tonalidade de preto, ou que o fundo dos cards a acompanhasse até em cima.
-Solução: Tiramos o background do header, e deixamos a imagem de fundo no body inteiro.
+Solução: Foi removido o background do header, e colocada a imagem de fundo no body inteiro.
 
 As soluções podem ser verificadas no site atual.
 
@@ -123,12 +124,12 @@ Lembrando que todos os teste foram escritos por nós.
 - [x] Inclui uma _definição de produto_ clara e informativa no `README.md`.
 - [x] Inclui histórias de usuário no `README.md`.
 - [x] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
-- [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no
+- [x] Inclui uma lista de problemas detectados nos testes de usabilidade no
       `README.md`.
 - [x] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
 - [x] UI: Permite ordenar dados por um ou mais campos (asc e desc).
 - [x] UI: Permite filtrar dados com base em uma condição.
-- [ ] UI: É _responsivo_.
+- [x] UI: É _responsivo_.
 
 ## 7. Desenvolvedoras
 
