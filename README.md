@@ -1,14 +1,17 @@
+<div align="center">
+
 # Data Lovers - Breaking Bad
+</div>
 
 <div align="center">
-  
+
   Acesse o projeto: [aqui](https://maahnbraz.github.io/SAP010-data-lovers/)  
   <br>
   <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
   <img src="https://skillicons.dev/icons?i=html"/>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
   <img src="https://skillicons.dev/icons?i=css"/>
-  <a href="developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">
   <img src="https://skillicons.dev/icons?i=js"/>
   <a href="https://git-scm.com/">
   <img src="https://skillicons.dev/icons?i=git"/>
