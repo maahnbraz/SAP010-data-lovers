@@ -7,6 +7,9 @@
 
   Acesse o projeto: [aqui](https://maahnbraz.github.io/SAP010-data-lovers/)  
   <br>
+  Status do projeto: Concluído ✔<br>
+  Tecnologias utilizadas: <br>
+
   <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
   <img src="https://skillicons.dev/icons?i=html"/>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
