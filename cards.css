@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /*paleta de cores */
+  --green: #025939;
+  --black: #0d0c00;
+  --light-yellow: #ecf2bd;
+  --white: #f2f2dc;
+}
+
+body {
+  color: var(--black);
+  background-image: url(img/greensmoke.png);
+  background-size: fill;
+  display: flex;/*Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.*/
+  flex-wrap: wrap; /*Quebra a linha assim que um dos flex itens não puder mais ser compactado*/
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header { 
+  height: fit-content;
+  width: 100vw;
+}
+
+#bbimage {
+  width: 280px;
+  /* justify-content: center;
+  display: flex; */
+}
+
+.nav-header {
+  display: flex;
+  justify-content: right;
+}
+
+.btn-header {
+  background-color: var(--white);
+  border-radius: 20px;
+  border: none;
+  color: var(--black);
+  width: 12vw;
+  height: 6vh;
+  margin: 0px 7px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+}
+
+.btn-option {
+  background-color: var(--white);
+  border-radius: 20px;
+  border: none;
+  color: var(--black);
+  width: 15vw;
+  height: 6vh;
+  margin: 0px 7px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn-search {
+  justify-content: center;
+  /* margin-bottom: 20px;
+  margin-top: 20px; */
+  width: 20vw;
+  text-align: center;
+
+}
+
+ main {
+  /* background-image: url(img/tubos\ de\ ensaio.jpg); */
+  border-radius: 40px;
+   /* background-image: url(img/greensmoke.png); */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} 
+
+.option-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.card-container {
+  display: flex; /* alinhamento dos cards. */
+  flex-wrap: wrap; /* alinhamento dos cards. */
+  align-items: center;
+  justify-content: center;
+  flex-basis: auto;
+}
+
+.percentage-container {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.2rem
+}
+
+.card {
+  height: 30vw;
+  width: 16vw;
+  margin: 20px;
+  padding: 2vh 1vw;
+  border-radius: 50px;
+  background-color: var(--green);
+   /* display: flex;  */
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  font-size: 0.89rem;
+  color: var(--black);
+}
+
+.poster-img {
+  height: 35vh;
+  width: 15vw;
+  margin-bottom: 2vh;
+  border-radius: 50px;
+  border: var(--black) 2px solid;
+  object-fit: cover;
+}
+
+footer {
+  color: var(--white);
+  font-size: 1.1rem;
+  margin: 100px 0 auto;
+  padding: 10px 10px;
+  width: 100%;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .btn-header {
+    width: 14vw;
+    height: 4vh;
+    font-size: 1.1rem;
+
+  }
+
+  .btn-option {
+    width: 14vw;
+    height: 4vh;
+    font-size: 1.1rem;
+  }
+
+  .percentage-container{
+    font-size: 1.1rem;
+  }
+
+  .card {
+    height: 50vw;
+    width: 40vw;
+    font-size: 0.88rem
+  }
+
+  .poster-img {
+    height: 20vh; 
+    width: 28vw; 
+  }
+ 
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .btn-header {
+    width: 18vw;
+    height: 4vh;
+    font-size: 0.9rem;
+  }
+
+  .btn-option{
+    width: 18vw;
+    height: 4vh;
+    font-size: 0.9rem;
+  }
+
+  .percentage-container{
+    font-size: 0.9rem;
+  }
+
+  .card {
+    height: 49vh;
+    width: 55vw;
+    font-size:0.8rem
+  }
+
+  .poster-img {
+    height: 28vh;
+    width: 45vw;
+  }
+
+  main{
+    width: 80%;
+  }
+  #btn-search {
+    width: 45vw;
+  }
+}
+
+
+@media screen and (max-width: 480px)  {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .btn-header {
+    width: 18vw;
+    height: 4vh;
+    font-size: 0.8rem;
+  }
+
+  .btn-option{
+    width: 18vw;
+    height: 4vh;
+    font-size: 0.8rem;
+  }
+
+  .percentage-container{
+    font-size: 0.8rem;
+  }
+  .card {
+    height: 49vh;
+    width: 55vw;
+    font-size: 0.7rem
+  }
+
+  .poster-img {
+    height: 28vh;
+    width: 45vw;
+  }
+  
+  main{
+    width: 80%;
+  }
+
+  #btn-search {
+    width: 45vw;
+  }
+} 
