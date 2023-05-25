@@ -60,7 +60,6 @@ describe("filter", () => {
   });
 });
 
-//testando ordenação a-z e z-a
 describe("order", () => {
   it("is a function", () => {
     expect(typeof dataFunctions.order).toBe("function");
@@ -89,7 +88,6 @@ describe("order", () => {
   });
 });
 
-//testando a busca por nome
 describe("searchName", () => {
   it("search for name", () => {
     expect(typeof dataFunctions.searchName).toBe("function");

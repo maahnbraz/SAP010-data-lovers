@@ -2,20 +2,18 @@ import data from "./data/breakingbad/breakingbad.js";
 
 import dataFunctions from "./data.js";
 
-const characters = data.breaking_bad; //aqui onde puxa o banco de dados do breakingbad.js para fornecer os personagens.
-const cardContainer = document.querySelector("#card-container"); //Aqui cria os cards.
-const selectStatus = document.querySelector("#select-status"); //Seletor de busca do status.
-const selectCategory = document.querySelector("#select-category"); //Seletor de busca por séries em que o personagem participou.
+const characters = data.breaking_bad;
+const cardContainer = document.querySelector("#card-container");
+const selectStatus = document.querySelector("#select-status");
+const selectCategory = document.querySelector("#select-category");
 const searchForName = document.querySelector("#btn-search"); //cria busca por nome.
 const reset = document.querySelector("#reset"); //cria o argumento de reset.
 const percentageElement = document.querySelector("#percentage");
 const selectOrder = document.querySelector("#select-order");
 
 function displayCards(characters) {
-  //declara a função personagens, criando os cards
   const arrayResults = characters.map((item) => {
-    //aqui esta a função MAP
-    const template = `                   
+    const template = `                
         <div class="card">
 
             <img class="poster-img" src="${item.img}" alt="${item.name}">
@@ -32,7 +30,7 @@ function displayCards(characters) {
 
         </div>
         `;
-    return template; //a constante acima cria todo o card e suas caracteristicas, puxando os dados da base de dados
+    return template;
   });
   return arrayResults.join("");
 }
@@ -40,7 +38,7 @@ cardContainer.innerHTML = displayCards(characters);
 
 selectStatus.addEventListener("change", (event) => {
   const value = event.target.value;
-  const filteredList = dataFunctions.filter(characters, value, "status"); //o "filter" está puxando da função filter do data.js
+  const filteredList = dataFunctions.filter(characters, value, "status");
   const cards = displayCards(filteredList);
   cardContainer.innerHTML = cards;
 
@@ -54,7 +52,7 @@ selectStatus.addEventListener("change", (event) => {
 
 selectCategory.addEventListener("change", (event) => {
   const value = event.target.value;
-  const filteredList = dataFunctions.filter(characters, value, "category"); //o "filter" está puxando da função filter do data.js
+  const filteredList = dataFunctions.filter(characters, value, "category");
   const cards = displayCards(filteredList);
   cardContainer.innerHTML = cards;
 
@@ -71,7 +69,6 @@ selectOrder.addEventListener("change", (event) => {
   const orderedList = dataFunctions.order(characters, value);
   const cards = displayCards(orderedList);
   cardContainer.innerHTML = cards;
-  percentageElement.innerHTML = "";
 });
 
 reset.addEventListener("click", (event) => {
