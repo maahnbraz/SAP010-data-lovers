@@ -1,8 +1,6 @@
 const dataFunctions = {
   filter: function (characters, value, key) {
-    /*esta função faz o filtro de todas as categorias */
     const filter = characters.filter(function (character) {
-      //  console.log(character[key])
       const filtered = character[key].includes(value);
 
       return filtered;
@@ -37,7 +35,6 @@ const dataFunctions = {
 
   order: function (characters, sortBy) {
     const copy = [...characters];
-    //  console.log(sortBy)
     if (sortBy === "ascending") {
       return dataFunctions.ascending(copy);
     }

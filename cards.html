@@ -5,21 +5,22 @@
     <title>Breaking Bad Lovers</title>
     <link rel="stylesheet" href="cards.css" />
     <link rel="icon" href="img/bbicon.png" id="bbicon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <header class="header">
       <nav class="nav-header">
-        <a href="index.html"><button class="btn-header">&laquo; Previous</button></a>
+        <a href="index.html"
+          ><button class="btn-header">&laquo; Previous</button></a
+        >
       </nav>
-      <picture style="display: flex; justify-content: center;">
-        <img src="img/logobbtransp.png" id="bbimage" alt="">
+      <picture style="display: flex; justify-content: center">
+        <img src="img/logobbtransp.png" id="bbimage" alt="" />
       </picture>
-      <!-- <img src="img/Image20230516161335.jpg">-->
     </header>
-    <!--Aqui são os botões de busca-->
-     <main> 
+
+    <main>
       <div class="option-container">
         <label>
           <select id="select-status" class="btn-option">
@@ -44,38 +45,51 @@
             <option value="ascending" id="ascending">A to Z</option>
             <option value="descending" id="descending">Z to A</option>
           </select>
-        </label>       
+        </label>
       </div>
-    
-      <label><p style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 40px;">
-        <input
-          type="text"
-          id="btn-search"
-          class="btn-option"
-          placeholder="Search for name"
-        />
-        <button id="reset" class="btn-option">Clear</button>
-      </label>
-    </p>
 
-      <div class="percentage-container" id="percentage-container"> 
-        <br />    <!--verificar necessidade de 2 class e 2 ids-->
+      <label
+        ><p
+          style="
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+          "
+        >
+          <input
+            type="text"
+            id="btn-search"
+            class="btn-option"
+            placeholder="Search for name"
+          />
+          <button id="reset" class="btn-option">Clear</button>
+        </p>
+      </label>
+
+      <div class="percentage-container" id="percentage-container">
+        <br />
         <p class="percentage" id="percentage"></p>
         <br />
       </div>
 
-      <!--Aqui é a div dos cartões-->
       <div class="card-container" id="card-container"></div>
     </main>
 
     <footer>
       <p class="footer-text">
         Developed by
-        <a href="https://www.linkedin.com/in/geane-moraes-ramos/" style="color: #025939;">
+        <a
+          href="https://www.linkedin.com/in/geane-moraes-ramos/"
+          style="color: #025939"
+        >
           <span class="name">Geane Ramos</span>
         </a>
-        e
-        <a href="https://www.linkedin.com/in/marinanbraz/" style="color: #025939;">
+        and
+        <a
+          href="https://www.linkedin.com/in/marinanbraz/"
+          style="color: #025939"
+        >
           <span class="name">Marina Braz</span>
         </a>
       </p>

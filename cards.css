@@ -4,7 +4,6 @@
 }
 
 :root {
-  /*paleta de cores */
   --green: #025939;
   --black: #0d0c00;
   --light-yellow: #ecf2bd;
@@ -14,24 +13,22 @@
 body {
   color: var(--black);
   background-image: url(img/greensmoke.png);
-  background-size: fill;
-  display: flex;/*Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.*/
-  flex-wrap: wrap; /*Quebra a linha assim que um dos flex itens não puder mais ser compactado*/
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-header { 
+header {
   height: fit-content;
   width: 100vw;
 }
 
 #bbimage {
   width: 280px;
-  /* justify-content: center;
-  display: flex; */
 }
 
 .nav-header {
@@ -69,24 +66,19 @@ header {
 
 #btn-search {
   justify-content: center;
-  /* margin-bottom: 20px;
-  margin-top: 20px; */
   width: 20vw;
   text-align: center;
-
 }
 
- main {
-  /* background-image: url(img/tubos\ de\ ensaio.jpg); */
+main {
   border-radius: 40px;
-   /* background-image: url(img/greensmoke.png); */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
-} 
+}
 
 .option-container {
   display: flex;
@@ -100,8 +92,8 @@ header {
 }
 
 .card-container {
-  display: flex; /* alinhamento dos cards. */
-  flex-wrap: wrap; /* alinhamento dos cards. */
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-basis: auto;
@@ -116,7 +108,7 @@ header {
   justify-content: center;
   align-items: center;
   color: var(--white);
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 .card {
@@ -126,7 +118,6 @@ header {
   padding: 2vh 1vw;
   border-radius: 50px;
   background-color: var(--green);
-   /* display: flex;  */
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
@@ -161,7 +152,6 @@ footer {
     width: 14vw;
     height: 4vh;
     font-size: 1.1rem;
-
   }
 
   .btn-option {
@@ -170,21 +160,20 @@ footer {
     font-size: 1.1rem;
   }
 
-  .percentage-container{
+  .percentage-container {
     font-size: 1.1rem;
   }
 
   .card {
     height: 50vw;
     width: 40vw;
-    font-size: 0.88rem
+    font-size: 0.88rem;
   }
 
   .poster-img {
-    height: 20vh; 
-    width: 28vw; 
+    height: 20vh;
+    width: 28vw;
   }
- 
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -198,20 +187,20 @@ footer {
     font-size: 0.9rem;
   }
 
-  .btn-option{
+  .btn-option {
     width: 18vw;
     height: 4vh;
     font-size: 0.9rem;
   }
 
-  .percentage-container{
+  .percentage-container {
     font-size: 0.9rem;
   }
 
   .card {
     height: 49vh;
     width: 55vw;
-    font-size:0.8rem
+    font-size: 0.8rem;
   }
 
   .poster-img {
@@ -219,7 +208,7 @@ footer {
     width: 45vw;
   }
 
-  main{
+  main {
     width: 80%;
   }
   #btn-search {
@@ -227,8 +216,7 @@ footer {
   }
 }
 
-
-@media screen and (max-width: 480px)  {
+@media screen and (max-width: 480px) {
   .card-container {
     flex-direction: column;
   }
@@ -239,31 +227,31 @@ footer {
     font-size: 0.8rem;
   }
 
-  .btn-option{
+  .btn-option {
     width: 18vw;
     height: 4vh;
     font-size: 0.8rem;
   }
 
-  .percentage-container{
+  .percentage-container {
     font-size: 0.8rem;
   }
   .card {
     height: 49vh;
     width: 55vw;
-    font-size: 0.7rem
+    font-size: 0.7rem;
   }
 
   .poster-img {
     height: 28vh;
     width: 45vw;
   }
-  
-  main{
+
+  main {
     width: 80%;
   }
 
   #btn-search {
     width: 45vw;
   }
-} 
+}
